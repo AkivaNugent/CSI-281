@@ -1,0 +1,11 @@
+﻿  main.cpp
+E:\School Assignments\CSI-281\CSI-281-Presentation-A-\src\GridMap.h(46,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'src/main.cpp')
+  
+E:\School Assignments\CSI-281\CSI-281-Presentation-A-\src\GridMap.h(47,28): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'src/main.cpp')
+  
+E:\School Assignments\CSI-281\CSI-281-Presentation-A-\src\GridMap.h(160,31): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/main.cpp')
+  
+  CSI-281-Presentation-A-.vcxproj -> E:\School Assignments\CSI-281\CSI-281-Presentation-A-\x64\Debug\CSI-281-Presentation-A-.exe

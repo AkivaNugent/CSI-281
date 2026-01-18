@@ -1,0 +1,27 @@
+Akiva Nugent
+CSI-281 - Data Structures and Algorithms
+Professor David Kopec
+Answers.txt
+Due September 12, 2024 : 11:59:59 PM
+
+1. randomIntArray() is going to be O(N) because it simply goes one by one for the length of the Array
+	and adds a random number. There are no nested loops or recursion.
+
+2.If the array is unsorted, the time complexity is O(N) because it needs to check each item down the line,
+	If the Array is sorted already, the itme complexity is O(logN) because it continually divides the
+	array in half, which is the opposite of exponents i.e. logarithmically.
+
+3. Linear search    : 5 instructions x 10,000 items = 50,000 instructions per search
+   Sorting Algorithm: 12 * 10,000 elements * log2(10,000) = 1,594,526 instructions (flat)
+   Bianary Search   : 10 * log(10,000) = 133 instructions per search;
+
+   Finding meeting point : 50,000x = 133x + 1,594,526
+						 : 49,867x = 1,594,526
+						 :       x = 31.97
+
+   Bianary search must do 32 searches to pass the efficiency of a linear search given the initial cost
+   of the sorting algorithm.
+
+4. 1. A sturcture contianing to integers
+   2. A vector/array of 2
+   3. A tuple

@@ -1,0 +1,20 @@
+Akiva Nugent
+CSI-281 - Data Structures and Algorithms
+Professor David Kopec
+Answers.txt
+Due September 26, 2024 : 11:59:59 PM
+
+1. While all of these algorithms have the same time complexity, bubble sort swaps items much more than the
+   other two algorthims, making it more costly to work down the array on each of its n^2 loops.
+
+2. In the best cases (entirely sorted) insertion sort only needs to compare each item 1 time,
+   giving it a time complexity of O(n). Selection sort always makes n^2 comparisons, regardless of the
+   array's closeness to being sorted.
+
+3. There needs to be something to compare for being less or more, meaning there must be some
+   opperation overloading (at a minimum the "<" or ">" opperator). 
+
+4. std::sort is faster because it uses a more efficient sorting algorithm, one that has a time complexity
+   closer to O(nlogn). Additionally, since it is the default sort theres likely many more optimizations
+   that go beyond the scope of what we've learned so far (things like early exits and efficient memory storage).
+   The largest factor is the time complexity of the sorting algorithm though.

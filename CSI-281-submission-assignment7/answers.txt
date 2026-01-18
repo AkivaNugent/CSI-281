@@ -1,0 +1,17 @@
+1. 3 real world examples of a queue are:
+			1. A line of people
+			2. A piping bag
+			3. lotion bottles (the ones with the pump that extends to the bottom)
+
+2. 3 real world examples of a stack are:
+			1. Plane boarding
+			2. Physically stacked objects like a pile of books or boxes
+			3. The plates on a barbell
+
+3. Not necessarily. Unit tests -like theyre namesake, only test a small part of the code in isolation. The code may
+	still fail because of the interaction between 'units' or unexpected inputs that the unit tests
+	didnt account for.
+
+4. Linked lists are preferable because of their ability to dynamically change the size of the list and
+	their ability to pop items off the front without shifting everything in the list. A fixed size would
+	require that you do high cost opperations whenever you want to pop or push an item.

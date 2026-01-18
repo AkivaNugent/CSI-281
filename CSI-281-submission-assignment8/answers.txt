@@ -1,0 +1,10 @@
+1. It depends - BGF will go level by level down the graph which will give you the shortest path between the nodes, but DFS could MYABE get to a 
+	result faster by virtue of digging deeper faster and happening to pick a decent path.
+
+2. The O(n) of BFS is O(V + E) because it checks every single vertecies as well as all edges at most one time.
+
+3. An adjacency list only requires the amount of space for the existing vertecies and edges, so if the network of people does not have a high degree of
+	overlap in friends, the space doesnt need to grow exponentially, but only with the actual connections.
+
+4. When you go on a walk. When walking from the campus to the lake side, even if you ndont know the way exactly, you typically dont sweep every street 
+	as you make your way down. You instead make your way down deep then change course if you hit a deadend or branching path. 
